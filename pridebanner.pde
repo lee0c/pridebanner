@@ -39,8 +39,8 @@ FLAG SETUP
   // Pansexual flag
   stripe[] s1 = { 
     new stripe(#ff1486, 0),
-    new stripe(#ffda00, 25),
-    new stripe(#05aeff, 35) };
+    new stripe(#ffda00, 20),
+    new stripe(#05aeff, 40) };
   flags.add( new flag(FLAGW, FLAGH, s1) );
 
   // Transgender flag
