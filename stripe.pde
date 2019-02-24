@@ -1,14 +1,14 @@
 /*
 A horizontal stripe in a flag.
-Single color, offset is offset vertical 0 = top left of flag
+Single color, percent is percent of height of the flag
 */
 
 public class stripe {
   color c;
-  int offset;
+  float percent;
 
-  public stripe(color c, int offset) {
+  public stripe(color c, float percent) {
     this.c = c;
-    this.offset = offset;
+    this.percent = percent;
   }
 }
